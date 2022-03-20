@@ -1,6 +1,4 @@
 //https://leetcode.com/problems/climbing-stairs/
-package JAVA;
-
 import java.util.*;
 
 class Main {

@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/house-robber/
-package JAVA;
+
 import java.util.*;
 
 class Solution {

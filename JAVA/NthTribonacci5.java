@@ -1,4 +1,3 @@
-package JAVA;
 //https://leetcode.com/problems/n-th-tribonacci-number/
 import java.util.*;
 class Solution1 {

@@ -1,6 +1,4 @@
 //https://leetcode.com/problems/fibonacci-number/
-package JAVA;
-
 import java.util.*;
 
 public class nthfib2 {
