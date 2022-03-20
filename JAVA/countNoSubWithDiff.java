@@ -37,7 +37,7 @@ class Solution5 {
         int consider = 0;
         int currentSum = nums[currentIndex];
 
-        if (currentSum <= targetSum)
+        if (currentSum <= targetSum && currentSum >= 0)
             consider = isPossible(nums, currentIndex + 1, targetSum - currentSum, memo);
 
         int notconsider = isPossible(nums, currentIndex + 1, targetSum, memo);
@@ -51,8 +51,8 @@ class Solution5 {
 class countNoSubWithGivenDiff {
     public static void main(String[] args) {
         Solution5 sol = new Solution5();
-        int[] nums = { 0, 0, 0, 0, 0, 0, 0, 0, 1 };
-        int diff = 1;
+        int[] nums = { 2,4,1,3 };
+        int diff = 4;
         System.out.println(sol.canPartition(nums, diff));
     }
 }
