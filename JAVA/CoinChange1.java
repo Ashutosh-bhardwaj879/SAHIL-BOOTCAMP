@@ -65,7 +65,7 @@
         return memo.get(currentKey);
     }
 }*/
-import java.util.*;
+
 class Solution {
     public int coinChange(int[] coins, int amount) {
 
@@ -92,7 +92,7 @@ class Solution {
 
         int currentAmount = coins[currentIndex];
 
-        String currentKey = Integer.toString(currentIndex) + "-" + Integer.toString(amount);
+        //String currentKey = Integer.toString(currentIndex) + "-" + Integer.toString(amount);
 
         if (dp[currentIndex][amount] != -2)
             return dp[currentIndex][amount];
