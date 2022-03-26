@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class Solution {
+class Solution546 {
     public int rob(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 
@@ -32,7 +32,7 @@ class Solution {
 
 class HouseRobber4 {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution546 sol = new Solution546();
         int[] nums = {1,2,3,1};
         System.out.println(sol.rob(nums));
     }
