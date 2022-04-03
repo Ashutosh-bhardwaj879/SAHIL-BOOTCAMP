@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class SolutionLCSS {
     public int longestCommonSubsequence(String text1, String text2) {
         return longestSubsequence(text1,text2,0,0,text1.length(),text2.length(),new HashMap<>());
     }
